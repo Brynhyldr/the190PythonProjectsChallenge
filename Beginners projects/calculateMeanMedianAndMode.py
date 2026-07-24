@@ -13,11 +13,9 @@ def median(orderedList):
     listLength = len(orderedList)
     if listLength % 2 == 0:
         result = (orderedList[round(listLength / 2)] + orderedList[round(listLength / 2 - 1)]) / 2
-        print(result)
         return result
     else:
         indexNumber = int((listLength + 1)/2 - 1)
-        print(indexNumber)
         return orderedList[indexNumber]
 
 def mean(neededList):
