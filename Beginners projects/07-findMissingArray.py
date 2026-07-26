@@ -7,7 +7,6 @@ def findMissingArray(listOfNumbers):
             if listOfNumbers[i] != listOfNumbers[i+1]-1:
                 answer.append(listOfNumbers[i]+1)
         except:
-            print("end of analysis")
-    return answer
+            return answer
 
 print(findMissingArray(listOfNumbers))
